@@ -1,10 +1,26 @@
 {
-  "name": "json-server-api",
+  "name": "json-api-url",
   "version": "1.0.0",
+  "description": "This is a simple web application that lets you create, view, edit, and delete .",
+  "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT"
+    "start": "json-server --host 0.0.0.0 --watch db.json --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OLIVER-LOMANAT/Json-api-url.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/OLIVER-LOMANAT/Json-api-url/issues"
+  },
+  "homepage": "https://github.com/OLIVER-LOMANAT/Json-api-url#readme",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "express": "^5.1.0",
+    "json-server": "^0.17.3"
   }
 }
