@@ -1,0 +1,13 @@
+{
+  "goals": [
+    {
+      "id": 1753001688183,
+      "name": "Dida loma",
+      "targetAmount": "30000",
+      "category": "Emergency",
+      "deadline": "2025-07-22",
+      "savedAmount": 0,
+      "createdAt": "2025-07-20"
+    }
+  ]
+}
